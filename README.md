@@ -12,13 +12,13 @@ To jedyne docelowe repozytorium zawierające **publiczny kod strony Agency**. Wi
 - Build: zbędny (statyczny HTML i CSS)
 - Bez JavaScriptu, formularzy, zewnętrznych bibliotek i narzędzi analitycznych.
 
-Dla repozytorium `MichalMatu.github.io` w razie potrzeby wybierz `Settings → Pages → Deploy from a branch → main → /(root)`. Stan publikacji potwierdź otwarciem adresu w przeglądarce.
+**Opublikowane:** GitHub Pages działa z `main / (root)`. Właściciel potwierdził na zrzutach ekranu komunikat „Your site is live” i poprawne wyświetlanie Agency pod adresem głównym (2026-11-03). Niezależny audyt mobilny i HTTP pozostaje otwarty.
 
 ## Podział repozytoriów
 
 - `MichalMatu/agency` — **prywatne** centrum zarządzania projektami, kampaniami i dokumentacją strategiczną.
 - `MichalMatu/MichalMatu.github.io` — **publiczne** repo z aktualną wersją strony.
-- `MichalMatu/agency-website` — repo historyczne (tymczasowo do wycofania po potwierdzeniu, że nowa strona działa). Nie rozwijaj go dalej.
+- `MichalMatu/agency-website` — repo historyczne, gotowe do usunięcia przez właściciela po przejrzeniu starych odnośników. Nie rozwijaj go dalej.
 
 Nie kopiuj prywatnych planów, rejestrów ani danych klientów na stronę.
 
