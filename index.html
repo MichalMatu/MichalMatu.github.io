@@ -117,6 +117,12 @@
     .contact h2 { max-width: 770px; color: #f4f7f1; }
     .contact p { max-width: 560px; color: var(--muted-dark); margin: 22px 0 0; }
     .contact-cta { flex-shrink: 0; }
+    .contact-email { color: var(--lime); text-decoration: underline; text-underline-offset: .18em; overflow-wrap: anywhere; }
+    .contact-email:hover { color: #dcffa1; }
+    .contact .contact-note { font-size: .85rem; margin-top: 10px; }
+    .product-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: auto; }
+    .product-actions .product-link { margin-top: 0; }
+    .product-link-secondary { color: #47714f; font-size: .89rem; font-weight: 650; }
     .footer { border-top: 1px solid rgba(255,255,255,.14); color: #a6b5aa; font-size: .79rem; }
     .footer-inner { display: flex; padding: 25px 0 35px; align-items: center; justify-content: space-between; gap: 20px; }
     .footer a:hover { color: var(--lime); }
@@ -151,6 +157,12 @@
       .lab-item { padding: 22px; }
       .contact-cta { width: 100%; }
       .footer-inner { flex-direction: column; align-items: flex-start; }
+    }
+    @media (max-width: 360px) {
+      .hero-aside { grid-template-columns: 1fr; border-left: 0; border-top: 1px solid rgba(255,255,255,.2); padding: 20px 0 0; }
+      .aside-number { grid-row: auto; font-size: 4.8rem; }
+      .aside-title { margin-top: 10px; }
+      .aside-copy { margin-top: 4px; }
     }
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
@@ -218,7 +230,10 @@
               <div class="product-meta"><span class="status">Publiczna beta</span></div>
               <h3>PhotoMap.pl</h3>
               <p>Odkrywanie miejsc na mapie poprzez zdjęcia. Projekt rozwija wizualny sposób poznawania lokalizacji.</p>
-              <a class="product-link" href="https://photomap.pl/" target="_blank" rel="noopener noreferrer">Otwórz PhotoMap.pl <span aria-hidden="true">↗</span></a>
+              <div class="product-actions">
+                <a class="product-link" href="https://photomap.pl/" target="_blank" rel="noopener noreferrer">Otwórz PhotoMap.pl <span aria-hidden="true">↗</span></a>
+                <a class="product-link product-link-secondary" href="mailto:meehow939@gmail.com?subject=Agency%20%E2%80%94%20PhotoMap%20%E2%80%94%20wspolpraca">Zapytaj o współpracę</a>
+              </div>
             </div>
           </article>
         </div>
@@ -261,9 +276,11 @@
           <div>
             <p class="kicker">03 / Kontakt</p>
             <h2 id="contact-heading">Wspólny projekt zaczyna się od rozmowy.</h2>
-            <p>Rozwijamy własne produkty i jesteśmy otwarci na rozmowy o współpracy. Publiczny profil twórcy znajdziesz na GitHub.</p>
+            <p>Rozwijamy własne produkty i jesteśmy otwarci na rozmowy o współpracy, pomysłach i opiniach o naszych betach.</p>
+            <p><a class="contact-email" href="mailto:meehow939@gmail.com?subject=Agency%20%E2%80%94%20kontakt">meehow939@gmail.com</a></p>
+            <p class="contact-note">Kontakt otwiera aplikację pocztową. Strona nie gromadzi wiadomości ani danych z formularzy.</p>
           </div>
-          <a class="button button-primary contact-cta" href="https://github.com/MichalMatu" target="_blank" rel="noopener noreferrer">Zobacz profil GitHub <span aria-hidden="true">↗</span></a>
+          <a class="button button-primary contact-cta" href="mailto:meehow939@gmail.com?subject=Agency%20%E2%80%94%20kontakt">Napisz e-mail <span aria-hidden="true">↗</span></a>
         </div>
       </section>
     </div>
