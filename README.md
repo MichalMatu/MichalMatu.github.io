@@ -2,7 +2,7 @@
 
 **Strona główna:** https://michalmatu.github.io/
 
-To jedyne docelowe repozytorium zawierające **publiczny kod strony Agency**. Witryna przedstawia działające bety IleStoi.pl i PhotoMap.pl, wybrane projekty w rozwoju oraz podejście do tworzenia produktów.
+To jedyne docelowe repozytorium zawierające **publiczny kod strony Agency**. Witryna przedstawia działające bety IleStoi.pl i PhotoMap.pl, wybrane projekty w rozwoju oraz podejście do tworzenia produktów. Od 2026-11-05 nacisk jest na ich sprawdzanie przez użytkowników, zamiast rozwoju kolejnych funkcji.
 
 ## Publikacja
 
@@ -12,9 +12,10 @@ To jedyne docelowe repozytorium zawierające **publiczny kod strony Agency**. Wi
 - Build: zbędny (statyczny HTML i CSS)
 - Bez JavaScriptu, formularzy, zewnętrznych bibliotek i narzędzi analitycznych.
 - Kontakt: bezpośredni link `mailto:` do podłączonego konta Gmail (adres publiczny w HTML); brak serwera i składowania treści wiadomości przez stronę.
-- Dwa tematy e-mail pozwalają rozróżnić ogólny kontakt i zapytanie o współpracę przy PhotoMap. Nie stanowią analityki kliknięć ani dowodu wysłania wiadomości.
+- Osobne tematy e-mail pozwalają rozróżniać ogólny kontakt, opinie o IleStoi, opinie o PhotoMap oraz zapytania partnerskie. Nie stanowią analityki kliknięć ani dowodu wysłania wiadomości.
+- Linki do obu produktów przekazują osobne `utm_campaign` i `utm_content` (bez identyfikatorów użytkownika). Samo dodanie UTM **nie uruchamia** analityki w produktach.
 
-**Opublikowane:** GitHub Pages działa z `main / (root)`. Właściciel potwierdził na zrzutach ekranu komunikat „Your site is live” i poprawne wyświetlanie Agency pod adresem głównym (2026-11-03). Niezależny audyt mobilny i HTTP pozostaje otwarty.
+**Publikacja:** GitHub Pages działa z `main / (root)`. Właściciel 2026-11-05 potwierdził ręcznie działanie wcześniejszej wersji i podstawowego kontaktu. Nowy commit `b64dfa2` zmienił copy, CTA i UTM zgodnie z przejściem do walidacji rynku; statyczny HTML/CSS QA PASS przed zapisem. **Render nowego commitu, jego publiczny HTTP i pomiar UTM pozostają osobną bramką.**
 
 ## Podział repozytoriów
 
@@ -26,4 +27,4 @@ Nie kopiuj prywatnych planów, rejestrów ani danych klientów na stronę.
 
 ## Rozwój
 
-Zmiany w witrynie wprowadzamy wyłącznie tutaj, a nie w prywatnym `agency/site/index.html`. Każda aktualizacja powinna mieć reaudyt treści, linków i responsywności. Podstawowy kontakt e-mail jest dostępny w witrynie. Przed uznaniem publikacji za zweryfikowaną potrzebny jest niezależny odczyt HTTP oraz test mobilny/klawiaturowy. W przyszłości można rozważyć analitykę z poszanowaniem prywatności; obecnie brak skryptów śledzących i pomiaru kliknięć.
+Zmiany w witrynie wprowadzamy wyłącznie tutaj, a nie w prywatnym `agency/site/index.html`. Każda aktualizacja powinna mieć reaudyt treści, linków i responsywności. Podstawowy kontakt e-mail jest dostępny w witrynie. Przed uznaniem publikacji za zweryfikowaną potrzebny jest niezależny odczyt HTTP oraz test mobilny/klawiaturowy. W przyszłości można rozważyć analitykę z poszanowaniem prywatności; obecnie brak skryptów śledzących i pomiaru kliknięć. Plan pomiaru i materiałów jest w prywatnym `agency/campaigns/MARKET_VALIDATION_2026-11.md` — nie kopiować prywatnych plików do repo strony.
