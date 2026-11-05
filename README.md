@@ -26,4 +26,4 @@ Nie kopiuj prywatnych planów, rejestrów ani danych klientów na stronę.
 
 ## Rozwój
 
-Zmiany w witrynie wprowadzamy wyłącznie tutaj, a nie w prywatnym `agency/site/index.html`. Każda aktualizacja powinna mieć reaudyt treści, linków i responsywności. Dalszym etapem jest profesjonalny kanał kontaktowy i analityka z poszanowaniem prywatności.
+Zmiany w witrynie wprowadzamy wyłącznie tutaj, a nie w prywatnym `agency/site/index.html`. Każda aktualizacja powinna mieć reaudyt treści, linków i responsywności. Podstawowy kontakt e-mail jest dostępny w witrynie. Przed uznaniem publikacji za zweryfikowaną potrzebny jest niezależny odczyt HTTP oraz test mobilny/klawiaturowy. W przyszłości można rozważyć analitykę z poszanowaniem prywatności; obecnie brak skryptów śledzących i pomiaru kliknięć.
